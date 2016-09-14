@@ -11,7 +11,7 @@ Assumptions:
 2. Reminders added on the same day.
 3. Client sees the logs on Refresh. No socket connection used from server to client.
 
-Core Logic
+Core Logic - 
 Upon adding a reminder, poll uber and google maps api once to get estimated travel time, and uber arrival time. 
 Add a certain BUFFER_TIME to it. 
 Once current time equals the travel_time + arrival_time + buffer_time, keep polling uber and googlemaps api to get updated informationn, and once you reach the time to book uber, send mail.

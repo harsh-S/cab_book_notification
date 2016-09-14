@@ -3,8 +3,8 @@
 Sends notification to a user to book a cab, based on a reminder set by her/him.
 
 Files needed to run the code : index.html, dist/bundle.js for client side. 
-
-On server, simply run node app.js
+On server, simply run "node app.js"
+To install required npm packages, do "npm init"
 
 Assumptions: 
 1. No DB has been used, hence all reminder remain in server program memory, and upon restarting they are all gone.
